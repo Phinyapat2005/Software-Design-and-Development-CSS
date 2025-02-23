@@ -232,10 +232,26 @@ div > p {
 
 ### ผลการทดลอง
 ```html
-[วางโค้ดที่นี่]
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เมนูนำทาง</title>
+    <link rel="stylesheet" href="styles.css"> <!-- ลิงก์ไปยังไฟล์ CSS ภายนอก -->
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active"a>สินค้า</a></li> <!-- เปลี่ยน active มาที่สินค้า -->
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+
+
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-
+<img width="1920" alt="ภาพถ่ายหน้าจอ 2568-02-23 เวลา 01 47 55" src="https://github.com/user-attachments/assets/b302e431-53bb-409d-b2b4-94cd0a7bc969" />
 
 [](#การทดลองที่-3-การจัดการสีและพื้นหลัง)
 ## การทดลองที่ 3: การจัดการสีและพื้นหลัง
@@ -338,9 +354,64 @@ background-size: cover;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ดที่นี่]
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>แกลเลอรีสินค้า</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/PANDORA1.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอรูปหัวใจสีทองประดับด้วยเพชร</p>
+                <a href="images/PANDORA1.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA2.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินรูปหัวใจ</p>
+                <a href="images/PANDORA2.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA3.jpg" alt="earring">
+            <div class="card-content">
+                <h3>earring</h3>
+                <p>ต่างหูรูปหัวใจสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA3.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA4.jpg" alt="ring">
+            <div class="card-content">
+                <h3>ring</h3>
+                <p>แหวนสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA4.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top">กลับไปข้างบน</a>
+</body>
+</html>
+
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![image](https://github.com/user-attachments/assets/0c67d534-57a7-4c9d-b297-a284d1b911a7)
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
@@ -436,13 +507,212 @@ border: 1px solid black;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ด HTML ที่นี่]
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>แกลเลอรีสินค้า</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/PANDORA1.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอรูปหัวใจสีทองประดับด้วยเพชร</p>
+                <a href="images/PANDORA1.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA2.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินรูปหัวใจ</p>
+                <a href="images/PANDORA2.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA3.jpg" alt="earring">
+            <div class="card-content">
+                <h3>earring</h3>
+                <p>ต่างหูรูปหัวใจสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA3.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA4.jpg" alt="ring">
+            <div class="card-content">
+                <h3>ring</h3>
+                <p>แหวนสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA4.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top">กลับไปข้างบน</a>
+</body>
+</html>  
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>แกลเลอรีสินค้า</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/PANDORA1.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอรูปหัวใจสีทองประดับด้วยเพชร</p>
+                <a href="images/PANDORA1.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA2.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินรูปหัวใจ</p>
+                <a href="images/PANDORA2.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA3.jpg" alt="earring">
+            <div class="card-content">
+                <h3>earring</h3>
+                <p>ต่างหูรูปหัวใจสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA3.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA4.jpg" alt="ring">
+            <div class="card-content">
+                <h3>ring</h3>
+                <p>แหวนสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA4.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top">กลับไปข้างบน</a>
+</body>
+</html>
+
+
 ```
 ```css
-[วางโค้ด CSS ที่นี่]
+@import url('https://fonts.google.com/specimen/Cormorant+Garamond?query=Cormorant+Garamond');
+/* รีเซ็ตค่าพื้นฐาน */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', sans-serif; /* ใช้ฟอนต์ Cormorant Garamond */
+}
+
+/* ตั้งค่าพื้นฐาน */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px;
+}
+        /* สไตล์เมนูนำทาง */
+        nav {
+            background-color: #333;
+            padding: 15px;
+            display: flex;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        .menu-item {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        .menu-item:hover, #active {
+            background-color: #f47ef4;
+            border-radius: 3px;
+        }
+
+        /* สไตล์แกลเลอรีสินค้า */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: 200px; /* กำหนดความสูงเท่ากัน */
+            object-fit: cover;
+        }
+        .card-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .btn {
+            display: block;
+            margin-top: auto;
+            padding: 8px;
+            background-color: #e573e5;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        .btn:hover {
+            background-color: #c35ac3;
+        }
+        .back-to-top {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #ee82ee;
+            text-decoration: none;
+            font-weight: bold;
+        }
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-
+![image](https://github.com/user-attachments/assets/568105da-c090-426a-868e-fcbb4db1e345)
 [](#การทดลองที่-5-การจัดการข้อความและฟอนต์)
 ## การทดลองที่ 5: การจัดการข้อความและฟอนต์
 
@@ -554,13 +824,309 @@ font-weight: bold;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ด HTML ที่นี่]
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>แกลเลอรีสินค้า</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/PANDORA1.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอรูปหัวใจสีทองประดับด้วยเพชร</p>
+                <a href="images/PANDORA1.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA2.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินรูปหัวใจ</p>
+                <a href="images/PANDORA2.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA3.jpg" alt="earring">
+            <div class="card-content">
+                <h3>earring</h3>
+                <p>ต่างหูรูปหัวใจสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA3.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA4.jpg" alt="ring">
+            <div class="card-content">
+                <h3>ring</h3>
+                <p>แหวนสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA4.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top">กลับไปข้างบน</a>
+</body>
+</html>  
+
 ```
 ```css
-[วางโค้ด CSS ที่นี่]
+ @import url('https://fonts.google.com/specimen/Cormorant+Garamond?query=Cormorant+Garamond');
+/* รีเซ็ตค่าพื้นฐาน */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', sans-serif; /* ใช้ฟอนต์ Cormorant Garamond */
+}
+
+/* ตั้งค่าพื้นฐาน */
+body {
+    background-color: #fff9f9;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px;
+}
+        /* สไตล์เมนูนำทาง */
+        nav {
+            background-color: #333;
+            padding: 15px;
+            display: flex;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        .menu-item {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+        .menu-item:hover, #active {
+            background-color: #f47ef4;
+            border-radius: 3px;
+        }
+        h1 {
+             text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+             color: #2c3e50;
+             margin-top: 20px;
+}
+
+        /* สไตล์แกลเลอรีสินค้า */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+        .card {
+            border: 1px solid #ffffff;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: 200px; /* กำหนดความสูงเท่ากัน */
+            object-fit: cover;
+         /* ข้อความภายในการ์ด */
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    font-size: 17px;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+/* ปุ่ม "ดูรายละเอียด" */
+.card-content a.btn {
+    display: inline-block;
+    background: #ad0783;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.card-content a.btn:hover {
+    background: #731abc;
+  /* ข้อความภายในการ์ด */
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    font-size: 17px;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+/* ปุ่ม "ดูรายละเอียด" */
+.card-content a.btn {
+    display: inline-block;
+    background: #ad0783;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+}
+
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}   
+        
+        .card-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .btn {
+            display: block;
+            margin-top: auto;
+            padding: 8px;
+            background-color: #e573e5;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+        .btn:hover {
+            background-color: #c35ac3;
+            /* ข้อความภายในการ์ด */
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    font-size: 17px;
+    color: #d8d8d8;
+    margin-bottom: 15px;
+}
+
+/* ปุ่ม "ดูรายละเอียด" */
+.card-content a.btn {
+    display: inline-block;
+    background: #ff9ae6;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+    transform: translateY(-3px);
+}
+        
+        .back-to-top {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            color: #ee82ee;
+            text-decoration: none;
+            font-weight: bold;
+        }
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>แกลเลอรีสินค้า</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/PANDORA1.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอรูปหัวใจสีทองประดับด้วยเพชร</p>
+                <a href="images/PANDORA1.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA2.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินรูปหัวใจ</p>
+
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-
+![image](https://github.com/user-attachments/assets/f20087fa-117b-44b4-ad88-f42023ac9379)
 [](#การทดลองที่-6-Layout-และการจัดวางอิลิเมนต์)
 ## การทดลองที่ 6: Layout และการจัดวางอิลิเมนต์
 
@@ -701,13 +1267,227 @@ font-weight: bold;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ด HTML ที่นี่]
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>แกลเลอรีสินค้า</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/PANDORA1.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอรูปหัวใจสีทองประดับด้วยเพชร</p>
+                <a href="images/PANDORA1.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA2.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินมีจี้รูปหัวใจ</p>
+                <a href="images/PANDORA2.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA3.jpg" alt="earring">
+            <div class="card-content">
+                <h3>earring</h3>
+                <p>ต่างหูรูปหัวใจสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA3.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA4.jpg" alt="ring">
+            <div class="card-content">
+                <h3>ring</h3>
+                <p>แหวนสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA4.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/pandora5.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินจี้ประดับรูปผีเสื้อ</p>
+                <a href="images/pandora5.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA6.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอสีเงินประดับด้วยจี้แหวน</p>
+                <a href="images/PANDORA6.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+    </div>    
+
+    <a href="#" class="back-to-top">กลับไปข้างบน</a>
+</body>
+</html>
+
 ```
 ```css
-[วางโค้ด CSS ที่นี่]
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap');
+
+        /* รีเซ็ตค่าพื้นฐาน */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cormorant Garamond', sans-serif;
+        }
+
+        /* ตั้งค่าพื้นฐาน */
+        body {
+            background-color: #fff9f9;
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* สไตล์เมนูนำทาง */
+        nav {
+            background-color: #333;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        .menu-item {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .menu-item:hover, #active {
+            background-color: #f47ef4;
+            border-radius: 3px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 20px;
+        }
+
+        /* สไตล์แกลเลอรีสินค้า */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+        }
+
+        .card {
+            border: 1px solid #ffffff;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .card img {
+            max-width: 100%;
+            height: 200px; /* กำหนดความสูงเท่ากัน */
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            
+}
+        
+
+        .card-content h3 {
+            font-size: 22px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+
+        .card-content p {
+            font-size: 17px;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        /* ปุ่ม "ดูรายละเอียด" */
+        .card-content a.btn {
+            display: inline-block;
+            background: #ff9ae6;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            transition: background 0.3s ease, transform 0.2s ease;
+            margin-top: auto; /* ทำให้ปุ่มอยู่ที่ด้านล่างสุด */
+            text-align: center; /* จัดปุ่มให้กึ่งกลาง */
+        }
+
+        .card-content a.btn:hover {
+            background: #f47ef4;
+            transform: translateY(-3px);
+        }
+
+        /* ปุ่มกลับไปข้างบน */
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #ee82ee;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .back-to-top:hover {
+            text-decoration: underline;
+        }
+
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-
+<img width="1920" alt="ภาพถ่ายหน้าจอ 2568-02-23 เวลา 20 48 51" src="https://github.com/user-attachments/assets/be3111f5-d503-4a3c-9577-be4c0f860692" />
 
 ### ตัวอย่างการใช้งาน: การสร้างเลย์เอาต์ Modern Dashboard
 
@@ -854,10 +1634,223 @@ font-weight: bold;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ด HTML ที่นี่]
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>แกลเลอรีสินค้า</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/PANDORA1.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอรูปหัวใจสีทองประดับด้วยเพชร</p>
+                <a href="images/PANDORA1.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA2.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินมีจี้รูปหัวใจ</p>
+                <a href="images/PANDORA2.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA3.jpg" alt="earring">
+            <div class="card-content">
+                <h3>earring</h3>
+                <p>ต่างหูรูปหัวใจสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA3.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA4.jpg" alt="ring">
+            <div class="card-content">
+                <h3>ring</h3>
+                <p>แหวนสีเงินประดับด้วยเพชร</p>
+                <a href="images/PANDORA4.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/pandora5.jpg" alt="bracelet">
+            <div class="card-content">
+                <h3>bracelet</h3>
+                <p>สร้อยข้อมือสีเงินจี้ประดับรูปผีเสื้อ</p>
+                <a href="images/pandora5.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/PANDORA6.jpg" alt="necklace">
+            <div class="card-content">
+                <h3>necklace</h3>
+                <p>สร้อยคอสีเงินประดับด้วยจี้แหวน</p>
+                <a href="images/PANDORA6.jpg" class="btn">ดูรายละเอียด</a>
+            </div>
+        </div>
+    </div>    
+
+    <a href="#" class="back-to-top">กลับไปข้างบน</a>
+</body>
+</html>
+
+
 ```
 ```css
-[วางโค้ด CSS ที่นี่]
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap');
+
+        /* รีเซ็ตค่าพื้นฐาน */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Cormorant Garamond', sans-serif;
+        }
+
+        /* ตั้งค่าพื้นฐาน */
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+            padding: 20px;
+            font-family: 'Cormorant Garamond', sans-serif;
+        }
+
+        /* สไตล์เมนูนำทาง */
+        nav {
+            background-color: #333;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        .menu-item {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .menu-item:hover, #active {
+            background-color: #f47ef4;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-top: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* สไตล์แกลเลอรีสินค้า */
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            border: 1px solid #fff;
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: 220px; /* กำหนดความสูงเท่ากัน */
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .card-content h3 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .card-content p {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        /* ปุ่ม "ดูรายละเอียด" */
+        .card-content a.btn {
+            display: inline-block;
+            background: #ff9ae6;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            margin-top: auto;
+        }
+
+        .card-content a.btn:hover {
+            background: #f47ef4;
+        }
+
+        /* ปุ่มกลับไปข้างบน */
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            color: #ee82ee;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .back-to-top:hover {
+            text-decoration: underline;
+        }
+
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-
+![image](https://github.com/user-attachments/assets/b2f690da-91f6-4fe7-8d63-7fa5bb3674a1)
